@@ -23,6 +23,7 @@ body{
     background-color: var(--bg-color);
     color: var(--text-color);
     height: 2000px;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -249,4 +250,46 @@ header{
     font-weight: 500;
     cursor: pointer;
     border: none;
+}
+
+/* footer section  */
+.footer{
+    /* background-color: var(--main-color); */
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 20px;
+    
+}
+.social .bx{
+    font-size: 2.5rem;
+    color: var(--text-color);
+    background-color: var(--main-color);
+    border-radius: 50%;
+    padding: 5px;
+    transition: 0.5s;
+    
+}
+.footer .social{
+    display: flex;
+    gap: 1.2rem;
+}
+
+.footer .bx:hover{
+    background-color:rgb(86, 0, 0);
+    color: var(--text-color);
+}
+
+
+/* footrebar  */
+.footerbar{
+    background-color: var(--main-color);
+}
+
+.footerbar p{
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
 }
